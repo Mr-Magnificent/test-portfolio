@@ -1,0 +1,31 @@
+.profile-pic {
+    width: 45%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.cont {
+    display: none;
+    vertical-align: top;
+}
+
+.link {
+    font-size: 24px !important;
+}
+
+.about {
+    /*height: 80vh;*/
+}
+
+.lang {
+    font-size: 17px;
+}
+
+.smaller-screen-lang table {
+    /*border: none !important;*/
+}
+
+.larger-screen-lang {
+    display: none;
+}
