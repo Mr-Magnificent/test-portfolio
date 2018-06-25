@@ -1,0 +1,17 @@
+@media screen and (min-width: 550px){
+    .about {
+        width: 30%;
+    }
+
+    .wider-screen {
+        width: 70%;
+    }
+
+    .smaller-screen-lang {
+        display: none;
+    }
+
+    .larger-screen-lang {
+
+    }
+}
