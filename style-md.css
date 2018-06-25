@@ -1,3 +1,18 @@
+@media screen and (min-width: 730px) {
+    .bigger-screen-email {
+        display: inline !important;
+        /*display: inline-block !important;*/
+    }
+
+    .smaller-screen-email {
+        display: none !important;
+    }
+
+    .rlink {
+        font-size: 20px !important;
+    }
+}
+
 @media screen and (min-width: 550px){
     .about {
         width: 30%;
@@ -12,6 +27,43 @@
     }
 
     .larger-screen-lang {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    .tech-img {
+        width: 70px;
+        /*max-height: 100px;*/
+    }
+
+    .profile-pic {
+        width: 80%;
+    }
+
+    .top>h1 {
+        font-size: 40px;
+        margin-bottom: 24.800px;
+        margin-top: 21.800px;
+    }
+
+    .top>p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .bigger-screen-email {
+        display: none;
+    }
+
+    .smaller-screen-email {
+        display: block !important;
+        vertical-align: top;
+        /*horiz-align: left;*/
+    }
+
+    .rlink {
+        font-size: 16px !important;
     }
 }
