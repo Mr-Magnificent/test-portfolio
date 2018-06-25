@@ -1,3 +1,66 @@
+.main {
+    width: 100%;
+    margin: 0px auto;
+    max-width: 1000px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.describe, .projects, .education, .contact {
+    padding: 0 5%;
+}
+
+.contact {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contact table {
+    padding-left: 5%;
+}
+
+.about {
+    margin: 0 auto;
+    background: linear-gradient(153deg, #ffd24b94, #9ed6f1);
+}
+
+h4 {
+    padding-left: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.top>h1 {
+    margin-bottom: 0.1em;
+}
+
+.text-below-name {
+    font-size: 12px;
+    margin-top: 1em;
+}
+
+.nav {
+    position: sticky;
+    top: -1px;
+    height: 30px;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .profile-pic {
     width: 45%;
     display: block;
@@ -11,19 +74,47 @@
 }
 
 .link {
-    font-size: 24px !important;
+    font-size: 132% !important;
 }
 
-.about {
-    /*height: 80vh;*/
-}
 
 .lang {
-    font-size: 17px;
+    font-size: 1em;
 }
 
-.smaller-screen-lang table {
-    /*border: none !important;*/
+.smaller-screen-lang {
+    margin: 0 auto;
+}
+
+.centered {
+    margin: 0 auto;
+    width: 80%;
+    table-layout: fixed;
+    /*float: center;*/
+}
+
+.divider {
+    width: 90%;
+    margin: 16px auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.centered td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vw;
+    min-font-size: 12px;
+    max-font-size: 19px;
+    width: 50%;
+}
+
+.flow-text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.education {
+    width: 100%;
 }
 
 .larger-screen-lang {

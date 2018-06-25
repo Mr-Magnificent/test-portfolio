@@ -5,37 +5,62 @@
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="style-md.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+
+
+
+
+
+<body class="main">
     <div class="main">
         <div class="container">
             <div class="row">
                 <div class="about col s12">
                     <img src="pics/BeFunky-photo.png" class="profile-pic">
-                    <div class="section">
+                    <div class="section top">
                         <h1>Ayush Poddar</h1>
+                        <p class="text-below-name">Web Developer | Tech Enthusiast | Music Lover</p>
+                        <p class="text-below-name">Email:- <a href="mailto:ayush_poddar@live.com">ayush_poddar@live.com</a> | Phone:- <a href="tel:+919013369678">9013369678</a></p>
+                        <a href="https://github.com/Mr-Magnificent" target="_blank"><button><i class="fa fa-git-square rlink"><span>&nbsp;GitHub</span></i></button></a>
+                        <a href="https://www.linkedin.com/in/ayush-poddar-1909a0b4/" target="_blank"><button><i class="fa fa-linkedin-square rlink"><span>&nbsp;LinkedIn</span></i></button></a>
                     </div>
                 </div>
+                <div class="nav">
+                    <!--id reference-->
+                    <div>
+                        <a href="#lang"><i class="fa fa-code link"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="material-icons link">developer_board</i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="fa fa-graduation-cap link"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="material-icons link">contact_mail</i></a>
+                    </div>
+                </div>
+                <div class="divider"></div>
                 <div class="describe col s12">
                     <div class="section">
                         <h3>About Me</h3>
-                        <div class="divider"></div>
                         <p class="flow-text">
                             A curious, theoretic yet pragmatic person who wishes to learn in-depth about every technology to widen my horizon of knowledge.
-                            Since, half knowledge is dangerous, therefore I try to leave no stone unturned.
+                            Since, half knowledge is dangerous, therefore I try to leave no stone unturned. Always looking for technologies that excite me!
                         </p>
                             <!--<blockquote>Do question, even the basics!-->
                                         <!--You will be a fool for once!-->
                                         <!--If you don't, you will be, for a lifetime.<br />-->
                                 <!--~Himmilicious-->
                             <!--</blockquote>-->
-                        <h3>Languages &amp; Techs</h3>
                         <div class="divider"></div>
+                        <h3 id="lang">Languages &amp; Techs</h3>
                         <div class="smaller-screen-lang">
-                                <table class="striped centered">
+                                <table class="centered">
                                     <tr>
                                         <td>cout&nbsp;<<&nbsp;&nbsp;"<span class="lang red-text lighten-2"><strong>C++</strong></span>";</td>
                                         <td>print&nbsp;&nbsp;("<span class="lang"><strong>Python</strong></span>")</td>
@@ -54,6 +79,7 @@
                                     </tr>
                                 </table>
                         </div>
+
                         <div class="larger-screen-lang row">
                             <!--images for languages-->
                             <div>
@@ -69,24 +95,24 @@
                                 <img src="pics/JavaScript.png">
                             </div>
                             <div>
-                                <img src="">
+                                <img src="pics/Tux.png">
                             </div>
                             <div>
-                                <img src="">
+                                <img src="pics/CSS3_logo_and_wordmark.svg.png">
                             </div>
                             <div>
-                                <img src="">
+                                <img src="pics/500px-HTML5_logo_and_wordmark.svg.png">
                             </div>
                             <div>
-                                <img src="">
+                                <img src="pics/java-logo-vector.png">
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="divider"></div>
                 <div class="projects col s12">
                     <div class="section">
                         <h3>Projects</h3>
-                        <div class="divider"></div>
                         <!--div to include projects-->
                         <div>
                             <h4>VacciIndia</h4>
@@ -99,52 +125,50 @@
                         </div>
                     </div>
                 </div>
+                <div class="divider"></div>
                 <div class="education col s12">
                     <h3>Education</h3>
-                    <div class="divider"></div>
-                    <!--For education-->
+                    <!--For education/ | school college?-->
                     <div>
                         <div>
-                            10<sup>th</sup> CGPA: 9.2
-                        </div>
-                        <div>
-                            12<sup>th</sup> Percentage: 93.6%
+                            <ul>
+                                <li>10<sup>th</sup> CGPA: 9.2</li>
+                                <li>12<sup>th</sup> Percentage: 93.6%</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <!--footer?-->
-                <footer>
-                    <div class="">
-                        <div class="row">
-                            <address class="contact col s12">
-                                <h3>Contact</h3>
-                                <div class="divider"></div>
-                                <div class="col s9">
-                                    <table>
-                                        <tbody>
-                                        <tr>
-                                            <td><i class="material-icons">call</i> <span class="cont">Contact:-</span></td>
-                                            <td><a href="tel:+919013369678">9013369678</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><i class="material-icons">email</i> <span class="cont">Email:-</span></td>
-                                            <td><a href="mailto:ayush_poddar@live.com">ayush_poddar@live.com</a></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                <div class="contact">
+                    <div class="row">
+                        <address class="col s12">
+                            <h3>Contact</h3>
+                            <div class="col s9">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td><i class="material-icons">call</i> <span class="cont">Contact:-</span></td>
+                                        <td><a href="tel:+919013369678">9013369678</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="material-icons">email</i> <span class="cont">Email:-</span></td>
+                                        <td><a href="mailto:ayush_poddar@live.com">ayush_poddar@live.com</a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <div>
                                     <a href="https://github.com/Mr-Magnificent" target="_blank"><button><i class="fa fa-git-square link"></i></button></a>
                                     <a href="https://www.linkedin.com/in/ayush-poddar-1909a0b4/" target="_blank"><button><i class="fa fa-linkedin-square link"></i></button></a>
                                 </div>
-                                <!--<label>Contact Number:- <a href="tel:+919013369678">9013369678</a></label><br />-->
-                                <!--<label>Email:- <a href="mailto:ayush_poddar@live.com">ayush_poddar@live.com</a></label>-->
-                                <!--LinkedIn Github-->
-                            </address>
-                        </div>
+                            </div>
+                            <!--<label>Contact Number:- <a href="tel:+919013369678">9013369678</a></label><br />-->
+                            <!--<label>Email:- <a href="mailto:ayush_poddar@live.com">ayush_poddar@live.com</a></label>-->
+                            <!--LinkedIn Github-->
+                        </address>
                     </div>
-                </footer>
+                </div>
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>-->
 </body>
 </html>
