@@ -75,11 +75,15 @@ h4 {
     position: sticky;
     top: -1px;
     height: 30px;
-    align-items: center;
+    z-index: 1000;
     background-color: #ffffff;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.anchor-nav > span {
+    display: none;
 }
 
 .profile-pic {
@@ -95,7 +99,8 @@ h4 {
 }
 
 .link {
-    font-size: 132% !important;
+    height: 28px;
+    width: 28px;
 }
 
 
