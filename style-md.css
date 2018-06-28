@@ -45,6 +45,11 @@
         flex-direction: column;
     }
 
+    .lang-heading {
+        width: 100%;
+        padding-left: 5%;
+    }
+
     .tech-img {
         height: 70px;
         width: 70px;

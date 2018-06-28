@@ -2,13 +2,39 @@ function getRandomInt() {
     return (Math.floor(Math.random() * 256));
 }
 
-function getLocation() {
-    return (Math.floor(Math.random() * 4));
+
+function e() {
+
+    function getLocation() {
+        return (Math.floor(Math.random() * 10));
+    }
+
+    function step() {}
+
+    function colorChange() {
+        let nomargin = document.getElementsByClassName("no-margin");
+        let col1 = getLocation();
+        let col2 = (col1 + 3);
+        if (col2 > 10) {
+            col2 = 5;
+        }
+        nomargin[0].style.background = `linear-gradient(25deg, ${'#0096' + col1 + '8'}, ${'#0096' + col2 + '8'})`;
+    }
+    return colorChange;
 }
 
-window.onload = function() {
-    let nomargin = document.getElementsByClassName("no-margin");
-    nomargin[0].style.background = `linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-                                    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-                                    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);`
-};
+let x = e();
+let nomargin = document.getElementsByClassName("no-margin");
+
+setInterval(x, 2000);
+
+function colorChange () {
+    let lang = document.getElementsByClassName('lang');
+    for(let i = 0; i < lang.length; i++) {
+        let tempColor = getRandomInt();
+        lang[i].style.color = `hsl(${tempColor}, 100%, 42%);`;
+        // console.log(lang[i]);
+    }
+}
+
+colorChange();
