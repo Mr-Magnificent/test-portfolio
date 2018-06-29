@@ -9,32 +9,33 @@ function e() {
         return (Math.floor(Math.random() * 10));
     }
 
-    function step() {}
+    // rgb(30, 87, 167);
+    // rgb(167, 30, 30);
+    // rgb(47, 181, 99);
 
     function colorChange() {
         let nomargin = document.getElementsByClassName("no-margin");
-        let col1 = getLocation();
-        let col2 = (col1 + 3);
-        if (col2 > 10) {
-            col2 = 5;
-        }
-        nomargin[0].style.background = `linear-gradient(25deg, ${'#0096' + col1 + '8'}, ${'#0096' + col2 + '8'})`;
+        let col1 = getRandomInt();
+        let col2 = getRandomInt();
+        nomargin[0].style.background = `linear-gradient(25deg, rgb(0, 150, ${col1}), rgb(0, 150, ${col2})`;
     }
     return colorChange;
 }
 
 let x = e();
-let nomargin = document.getElementsByClassName("no-margin");
+// let nomargin = document.getElementsByClassName("no-margin");
 
 setInterval(x, 2000);
 
-function colorChange () {
+window.onload = function() {
+    function colorCh () {
     let lang = document.getElementsByClassName('lang');
     for(let i = 0; i < lang.length; i++) {
         let tempColor = getRandomInt();
-        lang[i].style.color = `hsl(${tempColor}, 100%, 42%);`;
+        lang[i].style.color = `hsl(${tempColor}, 100%, 42%)`;
         // console.log(lang[i]);
     }
 }
 
-colorChange();
+colorCh();
+}

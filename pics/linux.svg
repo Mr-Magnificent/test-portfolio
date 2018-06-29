@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 252.08005 286.4737"
+   version="1.1"
+   sodipodi:docname="linux.svg"
+   width="252.08005"
+   height="286.47369"
+   inkscape:version="0.92.3 (unknown)">
+  <metadata
+     id="metadata25">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Category Diagram</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1303"
+     inkscape:window-height="744"
+     id="namedview23"
+     showgrid="false"
+     inkscape:zoom="0.69483293"
+     inkscape:cx="125.70002"
+     inkscape:cy="144.91545"
+     inkscape:window-x="63"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:none;stroke:#29485b;stroke-miterlimit:10;stroke-width:2px;}.cls-2{fill:#29485b;}</style>
+  </defs>
+  <title
+     id="title6">Category Diagram</title>
+  <path
+     class="cls-1"
+     d="m 133.62002,3.3732314 109.93,63.4399996 a 15.16,15.16 0 0 1 7.53,13.13 V 206.87323 a 15.16,15.16 0 0 1 -7.53,13.13 l -109.93,63.44 a 15.16,15.16 0 0 1 -15.16,0 l -109.9200006,-63.44 a 15.16,15.16 0 0 1 -7.54,-13.13 V 79.943231 c 0,-5.41 2.86,-10.41 10.7899996,-15 L 121.70002,1.4932314 c 1.47,-0.83999999 7.23,-0.83999999 11.92,1.88 z"
+     id="path8"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#29485b;stroke-width:2px;stroke-miterlimit:10" />
+  <polygon
+     class="cls-2"
+     points="117.98,188.84 117.98,163.74 107.21,163.74 107.21,188.84 "
+     id="polygon10"
+     style="fill:#29485b"
+     transform="translate(-36.829981,-28.266769)" />
+  <polygon
+     class="cls-2"
+     points="218.7,188.84 227.34,176.03 235.5,188.84 250.14,188.84 235.14,169.97 249.66,153.37 236.29,153.37 228.61,163.74 220.94,153.37 206.79,153.37 220.51,170.29 205.45,188.84 "
+     id="polygon12"
+     style="fill:#29485b"
+     transform="translate(-36.829981,-28.266769)" />
+  <path
+     class="cls-2"
+     d="m 128.90002,125.09323 v 22.35 a 12.21,12.21 0 0 0 2.35,7.3 15.16,15.16 0 0 0 6.6,5.07 24.89,24.89 0 0 0 9.86,1.88 28.79,28.79 0 0 0 11,-1.84 13.15,13.15 0 0 0 6.46,-5.12 14.35,14.35 0 0 0 2,-7.69 v -22 h -11.17 v 20.45 a 13.46,13.46 0 0 1 -0.75,4.83 5.81,5.81 0 0 1 -2.56,3 9.92,9.92 0 0 1 -5,1.05 q -7.53,0 -7.53,-8.57 v -20.71 z"
+     id="path14"
+     inkscape:connector-curvature="0"
+     style="fill:#29485b" />
+  <polygon
+     class="cls-2"
+     points="132.58,188.84 132.58,162.16 145.84,188.84 161.44,188.84 161.44,153.37 151.47,153.37 151.47,179.63 138.28,153.37 122.81,153.37 122.81,188.84 "
+     id="polygon16"
+     style="fill:#29485b"
+     transform="translate(-36.829981,-28.266769)" />
+  <polygon
+     class="cls-2"
+     points="117.98,159.52 117.98,153.37 107.21,153.37 107.21,159.52 "
+     id="polygon18"
+     style="fill:#29485b"
+     transform="translate(-36.829981,-28.266769)" />
+  <polygon
+     class="cls-2"
+     points="104.46,188.84 104.46,181.52 86.85,181.52 86.85,153.37 75.61,153.37 75.61,188.84 "
+     id="polygon20"
+     style="fill:#29485b"
+     transform="translate(-36.829981,-28.266769)" />
+</svg>

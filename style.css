@@ -7,8 +7,13 @@
     /*overflow-x: hidden;*/
 }
 
-h3 {
+h3, h5 {
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .row > div {
@@ -37,16 +42,19 @@ h3 {
 
 .contact {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(200, 200, 200) !important;
+    position: relative;
+    font-size: 0px;
+    height: 100%;
 }
 
 .wider-screen {
     width: 100%;
 }
 
-.contact table {
+/*.contact table {
     padding-left: 5%;
-}
+}*/
 
 .about {
     margin: 0 auto;
@@ -152,7 +160,7 @@ h4 {
 
 .centered-course td, .centered-course th {
     padding-left: 11px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     text-align: center;
 }
 
@@ -163,6 +171,7 @@ h4 {
 
 .education {
     max-width: 100%;
+    margin-bottom: 10px;
 }
 
 .larger-screen-lang {
@@ -171,4 +180,47 @@ h4 {
 
 #vacci-link {
     height: 14px;
+}
+
+#contact {
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+#contact ~ table {
+    width: 70%;
+    font-size: initial;
+    margin-bottom: 70px;
+}
+
+#contact ~ div {
+    width: 29%;
+    /*background-color: none !important;*/
+}
+
+#contact ~ div > a > div > img {
+    max-width: 100%;
+}
+
+#contact ~ div > a > div {
+    width: 57%;
+    margin-bottom: 5px;
+}
+
+#contact ~ div > a > div:hover {
+    background-color: grey;
+    display: inline-block;
+    transition: background-color 0.4s ease-in-out;
+    border-radius: 5%;
+}
+
+#no-color {
+    background-color: initial;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.describe, .projects, .education {
+    margin-bottom: 50px;
 }
